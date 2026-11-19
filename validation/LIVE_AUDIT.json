@@ -1,0 +1,96 @@
+{
+  "run_at_utc": "2026-11-16T01:41:10.740659+00:00",
+  "companies": [
+    {
+      "ticker": "AAPL",
+      "cik": "0000320193",
+      "period_end": "2026-09-26",
+      "annual_periods": 10,
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json"
+    },
+    {
+      "ticker": "TSLA",
+      "cik": "0001318605",
+      "period_end": "2025-12-31",
+      "annual_periods": 10,
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001318605.json"
+    },
+    {
+      "ticker": "NVDA",
+      "cik": "0001045810",
+      "period_end": "2026-01-25",
+      "annual_periods": 10,
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json"
+    },
+    {
+      "ticker": "MSFT",
+      "cik": "0000789019",
+      "period_end": "2026-06-30",
+      "annual_periods": 10,
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json"
+    },
+    {
+      "ticker": "JPM",
+      "cik": "0000019617",
+      "period_end": "2025-12-31",
+      "annual_periods": 10,
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000019617.json"
+    },
+    {
+      "ticker": "AMZN",
+      "cik": "0001018724",
+      "period_end": "2025-12-31",
+      "annual_periods": 10,
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json"
+    },
+    {
+      "ticker": "GOOGL",
+      "cik": "0001652044",
+      "period_end": "2025-12-31",
+      "annual_periods": 10,
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json"
+    }
+  ],
+  "ui_checks": 42,
+  "failures": [],
+  "national_series": {
+    "CPIAUCSL": {
+      "observation": "2026-09-01",
+      "retrieved_at": "2026-11-16T01:41:48.676084+00:00"
+    },
+    "UNRATE": {
+      "observation": "2026-10-01",
+      "retrieved_at": "2026-11-16T01:41:48.677618+00:00"
+    },
+    "PAYEMS": {
+      "observation": "2026-10-01",
+      "retrieved_at": "2026-11-16T01:41:48.679133+00:00"
+    },
+    "A191RL1Q225SBEA": {
+      "observation": "2026-07-01",
+      "retrieved_at": "2026-11-16T01:41:48.680663+00:00"
+    },
+    "GDPC1": {
+      "observation": "2026-07-01",
+      "retrieved_at": "2026-11-16T01:41:48.681885+00:00"
+    },
+    "DFF": {
+      "observation": "2026-11-12",
+      "retrieved_at": "2026-11-16T01:41:48.686556+00:00"
+    },
+    "DFEDTARL": {
+      "observation": "2026-11-15",
+      "retrieved_at": "2026-11-16T01:41:48.690462+00:00"
+    },
+    "DFEDTARU": {
+      "observation": "2026-11-15",
+      "retrieved_at": "2026-11-16T01:41:48.693928+00:00"
+    },
+    "DGS10": {
+      "observation": "2026-11-12",
+      "retrieved_at": "2026-11-16T01:41:48.697216+00:00"
+    }
+  },
+  "regional_series": 153,
+  "map_geographies": 51
+}
