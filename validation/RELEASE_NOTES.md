@@ -44,6 +44,9 @@ Stronger body text, labels, captions and sidebar text improve contrast. Caption
 opacity is set to 1 after browser inspection found Streamlit applied 0.6.
 The sensitivity heatmap uses dark labels on light cells. Daily Plotly histories
 use SVG after browser review exposed WebGL-unavailable errors.
+The sidebar now uses a light blue-gray background with near-black lettering and
+a slightly darker selected navigation row so it matches the main application
+surface and remains readable on mobile and desktop.
 
 ## Verification
 

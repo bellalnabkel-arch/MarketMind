@@ -10,7 +10,11 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-NAVY = "#0B1220"
+NAVY = "#111827"
+SIDEBAR_BG = "#EEF2F6"
+SIDEBAR_SELECTED = "#D9E6F3"
+SIDEBAR_TEXT = "#111827"
+SIDEBAR_MUTED = "#334155"
 BLUE = "#1D4ED8"
 MUTED = "#475569"
 
@@ -33,10 +37,14 @@ def apply_styles() -> None:
         [data-testid="stAlert"] p {{ color: #1E293B; line-height: 1.6; }}
         [data-testid="stMain"] button {{ font-weight: 650; }}
         [data-testid="stMain"] button:focus-visible, [data-testid="stMain"] input:focus-visible {{ outline: 3px solid #1D4ED8; outline-offset: 3px; }}
-        [data-testid="stSidebar"] {{ background: {NAVY}; }}
-        [data-testid="stSidebar"] [data-testid="stCaptionContainer"] {{ color: #CBD5E1; font-size: .9rem; }}
-        [data-testid="stSidebar"] label:has(input:checked) {{ background: #1E3A5F; border-radius: .4rem; }}
-        [data-testid="stSidebar"] :focus-visible {{ outline-color: #93C5FD; }}
+        [data-testid="stSidebar"] {{ background: {SIDEBAR_BG}; color: {SIDEBAR_TEXT}; }}
+        [data-testid="stSidebar"] h1, [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3,
+        [data-testid="stSidebar"] p, [data-testid="stSidebar"] label,
+        [data-testid="stSidebar"] [data-testid="stWidgetLabel"] p,
+        [data-testid="stSidebar"] [data-testid="stMarkdownContainer"] {{ color: {SIDEBAR_TEXT} !important; }}
+        [data-testid="stSidebar"] [data-testid="stCaptionContainer"] {{ color: {SIDEBAR_MUTED} !important; font-size: .9rem; }}
+        [data-testid="stSidebar"] label:has(input:checked) {{ background: {SIDEBAR_SELECTED}; border-radius: .4rem; }}
+        [data-testid="stSidebar"] :focus-visible {{ outline: 3px solid #1D4ED8; outline-offset: 3px; }}
         .mm-kicker {{ color: {BLUE}; font-size: .75rem; font-weight: 700; letter-spacing: .10em; text-transform: uppercase; }}
         .mm-title {{ color: {NAVY}; font-size: 2.35rem; font-weight: 800; line-height: 1.1; margin: 0 0 .35rem 0; }}
         .mm-subtitle {{ color: {MUTED}; font-size: 1rem; margin-bottom: 1.25rem; }}
